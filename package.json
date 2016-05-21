@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "geohash": "0.0.1",
+    "google-locations": "^0.2.0",
+    "google-maps": "^3.2.1",
+    "google-maps-api-loader": "^0.2.0",
+    "googlemaps": "^1.6.0",
+    "jade": "^1.11.0"
+  }
+}
