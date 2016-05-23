@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js?libraries=places&amp;sensor=true"></script>
+    <script src="/javascripts/global.js"></script>
+    <h1></h1>
+    <div id="loading">
+      <p>Loading your location</p>
+    </div><br>
+    <div id="map"></div>
+    <form action="/" method="post"></form>
+    <input id="address" type="text" name="address">
+    <button id="getCords" onclick="codeAddress();">Get Nearest Theater</button>
+  </body>
+</html>
