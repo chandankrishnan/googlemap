@@ -1,17 +1,28 @@
-var express = require('express');
-var routes = require('./routes/index');
-var bodyParser=require('body-parser');
-var path = require('path');
+/**
+ * define require module
+ */
+var express = require('express'),
+    routes = require('./routes/index'),
+    bodyParser = require('body-parser'),
+    path = require('path'),
+    app = express();
 
-var app = express();
+/** 
+ * view engine setup
+ */
+app.set('views', __dirname + '/views');
+app.engine('html', require('ejs').renderFile);
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+/**
+ * configure app
+ */
 app.use(bodyParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 
-app.listen(8082, function() {
+/**
+ * listen port
+ */
+app.listen(8085, function() {
     console.log('server run');
-})
+});

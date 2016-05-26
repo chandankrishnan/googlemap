@@ -10,12 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.1",
+    "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "geohash": "0.0.1",
-    "google-locations": "^0.2.0",
-    "google-maps": "^3.2.1",
-    "google-maps-api-loader": "^0.2.0",
-    "googlemaps": "^1.6.0",
     "jade": "^1.11.0"
   }
 }
