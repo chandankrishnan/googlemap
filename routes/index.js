@@ -8,7 +8,7 @@ var express = require('express'),
  * GET home page.
  */
 router.get('/', function(req, res) {
-    res.render('index', {
+    res.render('index.html', {
         title: 'Locate Me'
     });
 });

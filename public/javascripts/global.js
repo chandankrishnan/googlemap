@@ -27,6 +27,7 @@ var loadMap = function(position) {
      */
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
+    alert(latitude+ " and " +longitude);
     var myLatlng = new google.maps.LatLng(latitude, longitude);
     /**
      * Initializing the options for the map
@@ -77,6 +78,7 @@ function codeAddress() {
         'address': address
     }, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
+            alert(results[0].geometry.location.lat()+" and "+ results[0].geometry.location.lng())
             var coords = new google.maps.LatLng(results[0].geometry.location.lat(), results[0].geometry.location.lng());
             /**
              * Initializing the options for the map
