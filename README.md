@@ -2,7 +2,7 @@
 <p><b>I</b>n this project,you can enter  :flushed:  :eyes: location then you get nearest movie theater      :movie_camera: :movie_camera::performing_arts::performing_arts: :performing_arts:  with  addresss using #NodeJs  :saxophone: :saxophone:
 
 #Folder Structure
-<img src='http://server.myspace-shack.com/d22/screen.png'/>
+<img src='http://server.myspace-shack.com/d22/screeen.png'/>
 
 #install dependency
 1)body-parser
