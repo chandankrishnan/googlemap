@@ -7,21 +7,17 @@ var express = require('express'),
     path = require('path'),
     port=process.env.PORT||8088,
     app = express();
-
 /** 
  * view engine setup
  */
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
-
-
 /**
  * configure app
  */
 app.use(bodyParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
-
 /**
  * listen port
  */
