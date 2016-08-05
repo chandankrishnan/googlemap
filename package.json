@@ -1,5 +1,5 @@
 {
-    "name": "Google Map",
+    "name": "demo",
     "version": "1.0.0",
     "description": "<p><b>I</b>n this project,you can enter  :flushed:  :eyes: location then you get nearest movie theater      :movie_camera: :movie_camera::performing_arts::performing_arts: :performing_arts:  with  addresss using #NodeJs  :saxophone: :saxophone:",
     "main": "index.js",
