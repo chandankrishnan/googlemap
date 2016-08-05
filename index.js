@@ -5,6 +5,7 @@ var express = require('express'),
     routes = require('./routes/index'),
     bodyParser = require('body-parser'),
     path = require('path'),
+    port=process.env.PORT||8086,
     app = express();
 
 /** 
@@ -24,6 +25,6 @@ app.use('/', routes);
 /**
  * listen port
  */
-app.listen(8086, function() {
+app.listen(port, function() {
     console.log('server run');
 });
