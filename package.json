@@ -24,5 +24,8 @@
     "homepage": "https://github.com/chandankrishnan/googlemap#readme",
     "config": {
         "unsafe-perm": true
-    }
+    }, 
+    "engines": {
+    "node": "6.3.0"
+  }
 }
