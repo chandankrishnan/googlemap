@@ -1,17 +1,25 @@
 {
-  "name": "demo",
+  "name": "Google Map",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p><b>I</b>n this project,you can enter  :flushed:  :eyes: location then you get nearest movie theater      :movie_camera: :movie_camera::performing_arts::performing_arts: :performing_arts:  with  addresss using #NodeJs  :saxophone: :saxophone:",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "chandankrishnan",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.1",
-    "ejs": "^2.4.2",
-    "express": "^4.13.4",
-    "jade": "^1.11.0"
-  }
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandankrishnan/googlemap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chandankrishnan/googlemap/issues"
+  },
+  "homepage": "https://github.com/chandankrishnan/googlemap#readme"
 }
