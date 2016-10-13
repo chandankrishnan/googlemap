@@ -137,7 +137,7 @@ function placesRequest(latlng, map) {
              */
             var infowindow = new google.maps.InfoWindow({})
             google.maps.event.addListener(thisplace, 'click', function() {
-                infowindow.setContent({{place.title}}+"<br/>" + place.vicinity);
+                infowindow.setContent(place.title+"<br/>" + place.vicinity);
                 infowindow.open(map, this);
             });
         })
