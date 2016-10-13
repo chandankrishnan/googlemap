@@ -13,6 +13,10 @@ router.get('/', function(req, res) {
     });
 });
 
+router.post('/details',function(req,res){
+    
+})
+
 /** 
  * @exports {router}
  */
