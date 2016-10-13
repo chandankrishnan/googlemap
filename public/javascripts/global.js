@@ -21,7 +21,6 @@ var locateMe = function() {
  * @param {position}
  */
 var loadMap = function(position) {
-    var loading = $('#loading');
     /**
      * current location
      */
@@ -137,7 +136,7 @@ function placesRequest(latlng, map) {
              */
             var infowindow = new google.maps.InfoWindow({})
             google.maps.event.addListener(thisplace, 'click', function() {
-                infowindow.setContent("<h2>You are here</h2>" + place.vicinity);
+                infowindow.setContent(thisplace.title+"<br/>" + place.vicinity);
                 infowindow.open(map, this);
             });
         })
